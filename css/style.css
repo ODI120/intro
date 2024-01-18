@@ -1,0 +1,77 @@
+section{
+    height: 100vh;
+}
+.first{
+    height: 50vh;
+}
+.sec{
+    height: 50vh;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: 100%;
+}
+
+/* ======================= */
+
+.hero{
+    height: 100vh;
+    background-color: mistyrose;
+}
+.hero p{
+    color: #1a1a1a;
+    width: 70%;
+}
+.hero h1{
+    font-size: 52px;
+    font-weight: 800;
+}
+.common{
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+/* .set{
+    background-image: url(../img/ioi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} */
+._main{
+    height: 100%;
+}
+span{
+    color: rgb(212, 74, 189);
+}
+
+@media (max-width:768.9px){
+    img{
+        height: 200px;
+        width: 300px;
+    }
+    .hero p{
+        color: #1a1a1a;
+        width: 100%;
+    }
+    
+}
+@media (max-width:590.9px){
+    .hero{
+        text-align: center;
+    }
+    img{
+        height: 200px;
+        width: 300px;
+    }
+    .hero h1{
+        font-size: 45px;
+    }
+    /* .hero p{
+        font-size: 14px;
+        width: 50%;
+    } */
+}
